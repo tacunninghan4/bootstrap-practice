@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 1. Below this comment input the BootStrap 4 CSS CDN from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+     
+    <!-- 2. Now that we've set up BootStrap, we're going to work with building a navbar, but first lets put everything into a div with the class of container  (<div class="container"></div>) -->
+
+    <!-- 3. Now inside of our container lets start by placing a nav element with the class of navbar, navbar-dark, navbar-expand-sm, and bg-dark -->
+    <!-- </div> -->
+    <!-- The navbar class makes the nav behave like a bootstrap navbar, the bg-dark class gives the navbar a dark back-ground, and navbar-dark means that the elements inside the navbar will have light text so they easy to read on a dark background. -->
+
+    <!-- 4. Now let's add the headline link or brand link to our navbar. Inside your navbar add an anchor tag with the class 'navbar-brand', an href attribute that is equal to '#', and you can give it any text you'd like. -->
+    <!-- by classing your anchor tag as a navbar-brand, you are making your link bigger and bolder. -->
+    <!-- The inside of your body should look something like this now. -->
+    <!-- <div class="container">
+        <nav class = 'navbar navbar-dark bg-dark'>
+            <a href="#" class="navbar-brand">Nabar Practice</a>
+        </nav>
+    </div> -->
+
+    <!-- 5. before we put more links into our navbar, we should make them collapsable incase our user is on a mobile device. After your anchor tag, place a new div with the classes "collapse navbar-collapse". -->
+    <!-- everything inside this div will collapse when seen in a mobile device -->
+    <!-- Your code should look something like this: -->
+    <!-- <div class="container">
+        <nav class = 'navbar navbar-dark bg-dark'>
+            <a href="#" class="navbar-brand">Navbar Practice</a>
+            <div class="collapse navbar-collapse"></div>
+        </nav>
+    </div> -->
+
+    <!-- 6. Now lets add some normal Links!  After your navbar-brand add a UL with the class of navbar-nav and 2-5 list-items with the class nav-item. Finally, put links in your list items with the href="#" and a class of "nav-link".-->
+ 
+
+
+
+
+
+
+    <!-- 7. If you've gotten here, you're already done, but your final code should looks something likethis. -->
+    <!-- <div class="container">
+        <nav class="navbar navbar-dark bg-dark navbar-collapse navbar-expand-sm">
+          <a href="#" class="navbar-brand">Navbar Practice</a>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link 3</a>
+            </li>
+          </ul>
+          </div>
+        </nav>
+      </div> -->
+
+      
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
+
